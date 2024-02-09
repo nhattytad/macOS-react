@@ -245,7 +245,7 @@ export default function Dock() {
           onMouseEnter={selectDockItem}
           onMouseLeave={resetDock}
           onClick={() =>
-            window.open("https://github.com/gianlucajahn/macOS-react", "_blank")
+            window.open("https://github.com/nhattytad/macOS-react", "_blank")
           }
         >
           <div className="tool-tip">GitHub</div>
